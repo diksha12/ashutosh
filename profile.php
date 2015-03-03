@@ -148,6 +148,37 @@ margin-left: 20px;
 	color: black;
 	display: inline-block;
 }
+.outer_box3
+{
+	width: 102%;
+	height: 900px;
+	background-color: #000;
+	margin-top: -135px;
+	margin-left: 2712px;
+	background-image: url(./ashu3.jpg);
+	background-repeat: no-repeat;
+	background-size: 1348px;
+	display: inline-block;
+}
+.top_box3
+{
+	width: 102%;
+	height: 128px;
+	background-color: #000;
+	margin-top: -896px;
+	margin-left: 2712px;
+}
+.name3
+{
+	width: 400px;
+	height: 100px;
+	font-family: Pinyon Script;
+	font-size: 63px;
+	padding-left: 21px;
+	padding-top: 29px;
+	color: black;
+	display: inline-block;
+}
 </style>
 </head>
 <body>
@@ -168,9 +199,21 @@ margin-left: 20px;
 	<div class="arrow_left hide"></div>
 	<div class="arrow_right"></div>
 </div>
+
 <div class="outer_box2"></div>
 <div class="top_box2">
 	<div class="name2">
+			Ashutosh Singh
+	</div>
+	<button class="abc">abc</button>
+	<button class="profile">Profile</button>
+	<button class="music">Music</button>
+	<button class="follow_me">Follow Me</button>
+		
+	</div>
+	<div class="outer_box3"></div>
+<div class="top_box3">
+	<div class="name3">
 			Ashutosh Singh
 	</div>
 	<button class="abc">abc</button>
