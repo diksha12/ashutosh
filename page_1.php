@@ -5,168 +5,9 @@
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="other.css">
 <link href='http://fonts.googleapis.com/css?family=Courgette|Playball' rel='stylesheet' type='text/css'>
-<style type="text/css">
-.outer_box
-{
-	width: 100%;
-	height: 655px;
-	background-color: black;
-	background-image: url(./page1.jpg);
-	background-repeat: no-repeat;
-	background-size: 1285px;
-	display: inline-block;
-}
-.top_box
-{
-	width: 100%;
-	height: 100px;
-	background-color: red;
-	margin-top: 100px;
-	opacity: 0.6;
-}
-		.name
-		{
-			height: 100%;
-			width: 430px;
-			display: inline-block;
-			margin-left: -1336px;
-			border-right: solid 2px;
-			rgb(135, 135, 172)er-left: solid 2px;
-			border-color: antiquewhite;
-			font-family: Playball;
-			font-size: 65px;
-			border: 0px;
-			color: whitesmoke;
-		}
-		.know_me
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			margin-left: 637px;
-			display: inline-block;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 34px;
-			border: 0px;
-			border-left: solid 1px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.Compositions
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			display: inline-block;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 20px;
-			border: 0px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.Videos
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			display: inline-block;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 40px;
-			border: 0px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.Get_Involved
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			display: inline;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 27px;
-			border: 0px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.picture
-		{
-		width: 300px;
-		height: 300px;
-		background-color: #F00;
-		border-radius: 158px;
-		margin-left: 30px;
-		margin-top: 50px;
-		display: inline-block;
-		background-image: url("./know_me.jpg");
-		background-repeat: no-repeat;
-		background-size: 307px;
-		}
-		.about_ashu
-		{
-		width: 600px;
-		height: 400px;
-		background-color: transparent;
-		margin-left: 600px;
-		margin-top: -326px;
-		font-size: 50px;
-		color: whitesmoke;
-		font-family: Courgette;
-		}
-	.fixed
-	{
-		height: 100px;
-		width: 600px;
-		margin-left: 896px;
-		margin-top: -93px;
-		position: fixed;
-		font-size: 52px;
-		padding-left: 25px;
-		padding-top: 15px;
-		color: white;
-		font-family: Courgette;
-	}
-	.fb
-	{
-		height: 50px;
-		width: 50px;
-		margin-top: -30px;
-		margin-left: 300px;
-		border-radius: 30px;
-		background-image: url("./fb.png");
-		background-repeat: no-repeat;
-		background-size: 48px;
-		cursor: pointer;
-	}
-	.youtube
-	{
-		background-image: url("./youtube.png");
-		background-repeat: no-repeat;
-		background-size: 50px;
-	}
-	.Linkedin
-	{
-		background-image: url("./linkedIn.jpg");
-		background-repeat: no-repeat;
-		background-size: 50px;	
-	}
-	.button
-	{
-		height: 50px;
-		width: 50px;
-		margin-top: -30px;
-		margin-left: 50px;
-		border-radius: 30px;
-		cursor: pointer;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="customization.css">
+<link rel="stylesheet" type="text/css" href="page_1.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 <div class="outer_box">
@@ -188,5 +29,48 @@ Ashutosh!!
 <button class="button tab3"></button>
 <div class="fixed">Ashutosh Singh</div>
 </div>
+<script type="text/javascript">
+
+$(".know_me").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_1.php");
+});
+$(".know_me").mouseover(function(){
+	$(".know_me").css("background-color", "green");
+});
+$(".know_me").mouseout(function(){
+	$(".know_me").css("background-color", "red");
+});
+$(".Compositions").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_2.php");
+});
+$(".Compositions").mouseover(function(){
+	$(".Compositions").css("background-color", "green");
+});
+$(".Compositions").mouseout(function(){
+	$(".Compositions").css("background-color", "red");
+});
+$(".Videos").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_3.php");
+});
+$(".Videos").mouseover(function(){
+	$(".Videos").css("background-color", "green");
+});
+$(".Videos").mouseout(function(){
+	$(".Videos").css("background-color", "red");
+});
+$(".Get_Involved").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_4.php");
+});
+$(".Get_Involved").mouseover(function(){
+	$(".Get_Involved").css("background-color", "green");
+});
+$(".Get_Involved").mouseout(function(){
+	$(".Get_Involved").css("background-color", "red");
+});
+$(".fixed").click(function(){
+	window.location.assign("/work/ashu/ashutosh/profile.php");
+});
+</script>
+
 </body>
 </html>

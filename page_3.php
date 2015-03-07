@@ -4,240 +4,10 @@
 <head>
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="other.css">
+<link rel="stylesheet" type="text/css" href="customization.css">
+<link rel="stylesheet" type="text/css" href="page_3.css">
 <link href='http://fonts.googleapis.com/css?family=Courgette|Playball' rel='stylesheet' type='text/css'>
-<style type="text/css">
-.outer_box
-{
-	width: 100%;
-	height: 1200px;
-	background-color: black;
-	background-image: url("./page3.jpg");
-	background-repeat: no-repeat;
-	background-size: 2000px;
-}
-.top_box
-{
-	width: 100%;
-	height: 100px;
-	background-color: red;
-	margin-top: 100px;
-	opacity: 0.6;
-	display: inline-block;
-}
-		.name
-		{
-			height: 100%;
-			width: 430px;
-			display: inline-block;
-			margin-left: -1336px;
-			border-right: solid 2px;
-			rgb(135, 135, 172)er-left: solid 2px;
-			border-color: antiquewhite;
-			font-family: Playball;
-			font-size: 65px;
-			border: 0px;
-			color: whitesmoke;
-		}
-		.know_me
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			margin-left: 637px;
-			display: inline-block;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 34px;
-			border: 0px;
-			border-left: solid 1px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.Compositions
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			display: inline-block;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 20px;
-			border: 0px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.Videos
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			display: inline-block;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 40px;
-			border: 0px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.Get_Involved
-		{
-			height: 100%;
-			width: 175px;
-			background-color: transparent;
-			display: inline;
-			float: left;
-			cursor: pointer;
-			font-family: Sigmar One;
-			font-size: 27px;
-			border: 0px;
-			border-right: solid 1px;
-			color: whitesmoke;
-		}
-		.box1
-		{
-			width: 225px;
-			height: 300px;
-			display: inline-block;
-			margin-left: -3px;
-		}
-		.div1
-		{
-			background-color: red;
-			margin-top: -202px;
-		}
-		.div2
-		{
-			background-color: yellow;
-			margin-top: -342px;
-		}
-		.div3
-		{
-			background-color: red;
-			margin-top: -342px;
-		}
-		.div4
-		{
-			background-color: yellow;
-			margin-top: -342px;	
-		}
-		.div5
-		{
-			background-color: red;
-			margin-top: -342px;	
-		}
-		.div6
-		{
-			background-color: yellow;
-			margin-top: -342px;	
-		}
-		.box2
-		{
-			width: 225px;
-			height: 300px;
-			display: inline-block;
-			margin-top: -3px;
-			margin-left: -3px;
-		}
-		.div7
-		{
-			background-color: yellow;
-		}
-		.div8
-		{
-			background-color: red;
-		}
-		.div9
-		{
-			background-color: yellow;
-		}
-		.div10
-		{
-			background-color: red;
-		}
-		.div11
-		{
-			background-color: yellow;
-		}
-		.div12
-		{
-			background-color: red;
-		}
-		.div13
-		{
-			background-color: red;
-		}
-		.div14
-		{
-			background-color: yellow;
-		}
-		.div15
-		{
-			background-color: red;
-		}
-		.div16
-		{
-			background-color: yellow;
-		}
-		.div17
-		{
-			background-color: red;
-		}
-		.div18
-		{
-			background-color: yellow;
-		}
-		.div19
-		{
-			background-color: yellow;
-		}
-		.div20
-		{
-			background-color: red;
-		}
-		.div21
-		{
-			background-color: yellow;
-		}
-		.div22
-		{
-			background-color: red;
-		}
-		.div23
-		{
-			background-color: yellow;
-		}
-		.div24
-		{
-			background-color: red;
-		}
-		.template1
-		{
-			width: 525px;
-			height: 100px;
-			background-color: transparent;
-			margin-top: 300px;
-			margin-left: 66px;
-			position: fixed;
-			font-size: 90px;
-			font-family: Playball;
-
-		}
-		.template2
-		{
-			width: 525px;
-			height: 100px;
-			background-color: transparent;
-			margin-top: 300px;
-			margin-left: 752px;
-			position: fixed;
-			font-size: 90px;
-			font-family: Playball;
-
-		}
-</style>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -280,4 +50,43 @@
 
 </div>
 	</div>
+	<script type="text/javascript">
+
+$(".know_me").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_1.php");
+});
+$(".know_me").mouseover(function(){
+	$(".know_me").css("background-color", "green");
+});
+$(".know_me").mouseout(function(){
+	$(".know_me").css("background-color", "red");
+});
+$(".Compositions").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_2.php");
+});
+$(".Compositions").mouseover(function(){
+	$(".Compositions").css("background-color", "green");
+});
+$(".Compositions").mouseout(function(){
+	$(".Compositions").css("background-color", "red");
+});
+$(".Videos").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_3.php");
+});
+$(".Videos").mouseover(function(){
+	$(".Videos").css("background-color", "green");
+});
+$(".Videos").mouseout(function(){
+	$(".Videos").css("background-color", "red");
+});
+$(".Get_Involved").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page_4.php");
+});
+$(".Get_Involved").mouseover(function(){
+	$(".Get_Involved").css("background-color", "green");
+});
+$(".Get_Involved").mouseout(function(){
+	$(".Get_Involved").css("background-color", "red");
+});
+</script>
 </body>
