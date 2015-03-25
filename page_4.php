@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="other.css">
 <link rel="stylesheet" type="text/css" href="page_4.css">
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="customization.css">
 <link href='http://fonts.googleapis.com/css?family=Courgette|Playball' rel='stylesheet' type='text/css'>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -50,7 +51,6 @@
 	<div class="pic9 pic"></div>
 	<div class="pic10 pic"></div>
 
-	<div class="fixed">Ashutosh Singh</div>
 </div>
 <script type="text/javascript">
 
@@ -58,41 +58,47 @@ $(".know_me").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_1.php");
 });
 $(".know_me").mouseover(function(){
-	$(".know_me").css("background-color", "green");
+	$(".know_me").css("background-color", "rgb(186, 179, 179)");
+  $(".know_me").css("color", "rgb(157, 62, 62)");
 });
 $(".know_me").mouseout(function(){
-	$(".know_me").css("background-color", "red");
+	$(".know_me").css("background-color", "aliceblue");
+  $(".know_me").css("color", "black");
 });
 $(".Compositions").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_2.php");
 });
 $(".Compositions").mouseover(function(){
-	$(".Compositions").css("background-color", "green");
+	$(".Compositions").css("background-color", "rgb(186, 179, 179)");
+  $(".Compositions").css("color", "rgb(157, 62, 62)");
 });
 $(".Compositions").mouseout(function(){
-	$(".Compositions").css("background-color", "red");
+	$(".Compositions").css("background-color", "aliceblue");
+  $(".Compositions").css("color", "black");
 });
 $(".Videos").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_3.php");
 });
 $(".Videos").mouseover(function(){
-	$(".Videos").css("background-color", "green");
+	$(".Videos").css("background-color", "rgb(186, 179, 179)");
+  $(".Videos").css("color", "rgb(157, 62, 62)");
 });
 $(".Videos").mouseout(function(){
-	$(".Videos").css("background-color", "red");
+	$(".Videos").css("background-color", "aliceblue");
+  $(".Videos").css("color", "black");
 });
 $(".Get_Involved").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_4.php");
 });
 $(".Get_Involved").mouseover(function(){
-	$(".Get_Involved").css("background-color", "green");
+	$(".Get_Involved").css("background-color", "rgb(186, 179, 179)");
+  $(".Get_Involved").css("color", "rgb(157, 62, 62)");
 });
 $(".Get_Involved").mouseout(function(){
-	$(".Get_Involved").css("background-color", "red");
+	$(".Get_Involved").css("background-color", "aliceblue");
+  $(".Get_Involved").css("color", "black");
 });
-$(".fixed").click(function(){
-	window.location.assign("/work/ashu/ashutosh/profile.php");
-});
+
 </script>
 
 	</body>
