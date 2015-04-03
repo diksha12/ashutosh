@@ -16,97 +16,92 @@
 	background-image: url(./pic1.jpg);
 	background-repeat: no-repeat;
 	background-size: 1353px;
-	margin-top: -655px;
-	margin-left: 1350px;
 }
 .outer_box3
 {
 	width: 100%;
 	height: 655px;
 	background-color: black;
-	background-image: url(./pic2.jpg);
+	background-image: url(./pic8.jpg);
 	background-repeat: no-repeat;
 	background-size: 1353px;
-	margin-top: -655px;
-	margin-left: 2697px;
 }
 .top_box
 {
 	  width: 100%;
   height: 75px;
-  background-color: red;
+  background-color: aliceblue;
   margin-top: 33px;
   opacity: 0.6;
   display: inline-block;
-	
 }
-.name
-{
-	height: 100%;
-	width: 430px;
-	display: inline-block;
-	margin-left: -1336px;
-	border-right: solid 2px;
-	rgb(135, 135, 172)er-left: solid 2px;
-	border-color: antiquewhite;
-	font-family: Playball;
-	font-size: 65px;
-	border: 0px;
-	color: whitesmoke;
-}
-.know_me
-{
-	height: 100%;
-	width: 175px;
-	background-color: transparent;
-	margin-left: 637px;
-	display: inline-block;
-	float: left;
-	cursor: pointer;
-	font-family: Sigmar One;
-	font-size: 34px;
-	border: 0px;
-	color: whitesmoke;
-}
-.Compositions
-{
-	height: 100%;
-	width: 175px;
-	background-color: transparent;
-	display: inline-block;
-	float: left;
-	cursor: pointer;
-	font-family: Sigmar One;
-	font-size: 20px;
-	border: 0px;
-	color: whitesmoke;
-}
-.Videos
-{
-	height: 100%;
-	width: 175px;
-	background-color: transparent;
-	display: inline-block;
-	float: left;
-	cursor: pointer;
-	font-family: Sigmar One;
-	font-size: 40px;
-	border: 0px;
-	color: whitesmoke;
-}
-.Get_Involved
-{
-	height: 100%;
-	width: 175px;
-	background-color: transparent;
-	display: inline;
-	float: left;
-	cursor: pointer;
-	font-family: Sigmar One;
-	font-size: 27px;
-	border: 0px;
-	color: whitesmoke;
-}
+		.name
+		{
+			height: 100%;
+			width: 430px;
+			display: inline-block;
+			margin-left: -1336px;
+			border-right: solid 2px;
+			rgb(135, 135, 172)er-left: solid 2px;
+			border-color: antiquewhite;
+			font-family: Playball;
+			font-size: 65px;
+			border: 0px;
+			color: black;
+		}
+		.know_me
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			margin-left: 637px;
+			display: inline-block;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
+		.Compositions
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			display: inline-block;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
+		.Videos
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			display: inline-block;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
+		.Get_Involved
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			display: inline;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
 .right_arrow
 {
 	width: 100px;
@@ -156,7 +151,6 @@
 	width: 842px;
 	height: 400px;
 	background-color: transparent;
-	margin-top: -284px;
 	margin-left: 241px;
 	font-family: playball;
 	font-size: 70px;
@@ -174,7 +168,7 @@ text-align: center;
   height: 500px;
   margin-top: 80px;
   margin-left: 450px;
-  background-image: url('./quote1.jpg');
+  background-image: url('./quote.jpg');
   background-size: 500px;
   background-repeat: no-repeat;
   opacity: 0.7;
@@ -312,4 +306,41 @@ transform: translateY(-100px);
 .hide
 {
 	display: none;
+}
+.radio1
+{
+	width: 30px;
+  height: 30px;
+  margin-left: 1280px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -300px;
+  cursor: pointer;
+background-color: rgb(211, 203, 203);
+border-radius: 23px;
+}
+.radio2
+{
+	width: 30px;
+  height: 30px;
+  margin-left: 1280px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -250px;
+  cursor: pointer;
+  background-color: rgb(211, 203, 203);
+  border-radius: 23px
+}
+
+.radio3
+{
+	width: 30px;
+  height: 30px;
+  margin-left: 1280px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -200px;
+  cursor: pointer;
+  background-color: rgb(211, 203, 203);
+  border-radius: 23px;
 }

@@ -1,21 +1,17 @@
-.outer_box
-{
-	width: 100%;
-	height: 1200px;
-	background-color: black;
-	background-image: url("./page3.jpg");
-	background-repeat: no-repeat;
-	background-size: 2000px;
-	margin-top: 83px;
-}
-
-.div2
+		.outer_box
 		{
-			background-color: yellow;
-			margin-top: -342px;
-			background-image: url('./tom_odell_another_love.jpg');
+			width: 100%;
+			height: 718px;
+			background-color: black;
+			margin-top: 83px;
+		}
+
+		.div2
+		{
+ 			margin-top: -202px;
+			background-image: url('./no_sound.jpg');
 			background-repeat: no-repeat;
-			background-size: 279px;
+			background-size: 225px;
 			cursor: pointer;
 		}
 
@@ -30,7 +26,6 @@
 		}
 		.div1
 		{
-			background-color: red;
 			margin-top: -202px;
 			background-image: url('./tom_odell_another_love.jpg');
 			background-repeat: no-repeat;
@@ -40,22 +35,34 @@
 		
 		.div3
 		{
-			background-color:red;
 			margin-top: -342px;
+			background-image: url('./s_g.jpg');
+			background-repeat: no-repeat;
+			background-size: 225px;
+			cursor: pointer;
 		}
 		.div4
 		{
-			background-color: yellow;
+			background-image: url('./ashu2.jpg');
+			background-repeat: no-repeat;
+			background-size: 340px;
+			cursor: pointer;
 			margin-top: -342px;	
 		}
 		.div5
 		{
-			background-color: red;
+			background-image: url('./ashu4.jpg');
+			background-repeat: no-repeat;
+			background-size: 231px;
+			cursor: pointer;
 			margin-top: -342px;	
 		}
 		.div6
 		{
-			background-color: yellow;
+			background-image: url('./ashu3.jpg');
+			background-repeat: no-repeat;
+			background-size: 230px;
+			cursor: pointer;
 			margin-top: -342px;	
 		}
 		.box2
@@ -69,75 +76,130 @@
 		}
 		.div7
 		{
-			background-color: yellow;
+			background-image: url('./l_p.jpg');
+			background-repeat: no-repeat;
+			background-size: 225px;
+			cursor: pointer;
+
 		}
 		.div8
 		{
-			background-color: red;
+			background-image: url('./muskurane.jpg');
+			background-repeat: no-repeat;
+			background-size: 357px;
+			cursor: pointer;
 		}
 		.div9
 		{
-			background-color: yellow;
+			background-image: url('./robber.jpg');
+			background-repeat: no-repeat;
+			background-size: 225px;
+			cursor: pointer;
 		}
 		.div10
 		{
-			background-color: red;
+			background-image: url('./ashu1.jpg');
+			background-repeat: no-repeat;
+			background-size: 250px;
+			cursor: pointer;
 		}
 		.div11
 		{
-			background-color: yellow;
+			background-image: url('./pic1.jpg');
+			background-repeat: no-repeat;
+			background-size: 225px;
+			cursor: pointer;
 		}
 		.div12
 		{
-			background-color: red;
+			background-image: url('./pic2.jpg');
+			background-repeat: no-repeat;
+			background-size: 261px;
+			cursor: pointer;
 		}
 		.div13
 		{
-			background-color: red;
+		background-image: url('./perfect_life.jpg');
+			background-repeat: no-repeat;
+			background-size: 245px;
+			cursor: pointer;
 		}
 		.div14
 		{
-			background-color: yellow;
+			background-image: url('./jeena_jeena.jpg');
+			background-repeat: no-repeat;
+			background-size: 358px;
+			cursor: pointer;
 		}
 		.div15
 		{
-			background-color: red;
+			background-image: url('./script.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div16
 		{
-			background-color: yellow;
+			background-image: url('./pic3.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div17
 		{
-			background-color: red;
+			background-image: url('./pic4.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div18
 		{
-			background-color: yellow;
+			background-image: url('./pic5.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div19
 		{
-			background-color: yellow;
+			background-image: url('./all_of_me.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div20
 		{
-			background-color: red;
+			background-image: url('./rude.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div21
 		{
-			background-color: yellow;
+			background-image: url('./ink.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div22
 		{
-			background-color: red;
+			background-image: url('./ashu3.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div23
 		{
-			background-color: yellow;
+			background-image: url('./pic1.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.div24
 		{
-			background-color: red;
+			background-image: url('./ashu2.jpg');
+			background-repeat: no-repeat;
+			background-size: 223px;
+			cursor: pointer;
 		}
 		.template1
 		{

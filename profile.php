@@ -5,108 +5,121 @@
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="other.css">
 <link href='http://fonts.googleapis.com/css?family=Courgette|Playball' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="profile.css">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 <body>
 
 <div id="start" class="start">
-<div class="bubblingG">
-<span id="bubblingG_1">
-</span>
-<span id="bubblingG_2">
-</span>
-<span id="bubblingG_3">
-</span>
+	<div class="bubblingG">
+		<span id="bubblingG_1">
+		</span>
+		<span id="bubblingG_2">
+		</span>
+		<span id="bubblingG_3">
+		</span>
+	</div>
 </div>
-</div>
-
-<div class="next" id="next">
+<div class="first">
 <div class="outer_box1">
 	<div class="top_box">
 		<div class="name">Ashutosh Singh</div>
-		<button class= "know_me">Know Me!!</button>
-		<button class="Compositions">My Compositions</button>
-		<button class="Videos">Videos</button>
-		<button class="Get_Involved">Get Involved</button>
+<button class= "know_me">Know<br>Me!!</button>
+    		<button class="Compositions">My<br>Compositions!!</button>
+    		<button class="Videos">All<br>Videos!!</button>
+    		<button class="Get_Involved">Get<br>Involved!!</button>
 	</div>
-	<div class="right_arrow"></div>
 	<div class="quote">quote_1!</div>
+	<div class="radio1"></div>
+	<div class="radio2"></div>
+	<div class="radio3"></div>
 </div>
 <div class="outer_box2">
 	<div class="top_box">
 		<div class="name">Ashutosh Singh</div>
-		<button class= "know_me">Know Me!!</button>
-		<button class="Compositions">My Compositions</button>
-		<button class="Videos">Videos</button>
-		<button class="Get_Involved">Get Involved</button>
+		<button class= "know_me">Know<br>Me!!</button>
+    		<button class="Compositions">My<br>Compositions!!</button>
+    		<button class="Videos">All<br>Videos!!</button>
+    		<button class="Get_Involved">Get<br>Involved!!</button>
 	</div>
-	<div class="left_arrow_1"></div>
-	<div class="right_arrow_1"></div>
 	<div class="quote">quote_2!</div>
+	<div class="radio1"></div>
+	<div class="radio2"></div>
+	<div class="radio3"></div>
 </div>
 <div class="outer_box3">
 	<div class="top_box">
 		<div class="name">Ashutosh Singh</div>
-		<button class= "know_me">Know Me!!</button>
-		<button class="Compositions">My Compositions</button>
-		<button class="Videos">Videos</button>
-		<button class="Get_Involved">Get Involved</button>
+		<button class= "know_me">Know<br>Me!!</button>
+    		<button class="Compositions">My<br>Compositions!!</button>
+    		<button class="Videos">All<br>Videos!!</button>
+    		<button class="Get_Involved">Get<br>Involved!!</button>
 	</div>
-	<div class="left_arrow"></div>
 	<div class="quote">Quote_3!</div>
+	<div class="radio1"></div>
+	<div class="radio2"></div>
+	<div class="radio3"></div>
 </div>
 </div>
-
 <script type="text/javascript">
 
-
+$('.first').hide();
+$('.outer_box1').hide();
 $('#start').hide();
 $('#start').fadeIn();
-$('#start').fadeOut( 11600);
-$('.next').fadeIn();
+$('#start').fadeOut(11600, function(){
+	$('.first').fadeIn();
+$('.outer_box1').fadeIn();
 
-$('.right_arrow').click(function(){
-	
-});
-
+$('.outer_box2').hide();
+$('.outer_box3').hide();
 
 $(".know_me").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_1.php");
 });
 $(".know_me").mouseover(function(){
-	$(".know_me").css("background-color", "green");
+	$(".know_me").css("background-color", "rgb(186, 179, 179)");
+  $(".know_me").css("color", "rgb(157, 62, 62)");
 });
 $(".know_me").mouseout(function(){
-	$(".know_me").css("background-color", "red");
+	$(".know_me").css("background-color", "aliceblue");
+  $(".know_me").css("color", "black");
 });
 $(".Compositions").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_2.php");
 });
 $(".Compositions").mouseover(function(){
-	$(".Compositions").css("background-color", "green");
+	$(".Compositions").css("background-color", "rgb(186, 179, 179)");
+  $(".Compositions").css("color", "rgb(157, 62, 62)");
 });
 $(".Compositions").mouseout(function(){
-	$(".Compositions").css("background-color", "red");
+	$(".Compositions").css("background-color", "aliceblue");
+  $(".Compositions").css("color", "black");
 });
 $(".Videos").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_3.php");
 });
 $(".Videos").mouseover(function(){
-	$(".Videos").css("background-color", "green");
+	$(".Videos").css("background-color", "rgb(186, 179, 179)");
+  $(".Videos").css("color", "rgb(157, 62, 62)");
 });
 $(".Videos").mouseout(function(){
-	$(".Videos").css("background-color", "red");
+	$(".Videos").css("background-color", "aliceblue");
+  $(".Videos").css("color", "black");
 });
 $(".Get_Involved").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_4.php");
 });
 $(".Get_Involved").mouseover(function(){
-	$(".Get_Involved").css("background-color", "green");
+	$(".Get_Involved").css("background-color", "rgb(186, 179, 179)");
+  $(".Get_Involved").css("color", "rgb(157, 62, 62)");
 });
 $(".Get_Involved").mouseout(function(){
-	$(".Get_Involved").css("background-color", "red");
+	$(".Get_Involved").css("background-color", "aliceblue");
+  $(".Get_Involved").css("color", "black");
 });
+
 $('.right_arrow').click(function(){
 	$('.outer_box2').show();
 	$('.right_arrow').hide();
@@ -134,6 +147,41 @@ $('.left_arrow_1').click(function(){
 	$(".left_arrow").show();
 	$('.right_arrow_1').show();
 	$('.left_arrow_1').hide();
+});
+$('.radio1').hover(function(){
+	$(".radio1").css("background-color", "rgb(150, 133, 133)");
+});
+$('.radio2').hover(function(){
+	$(".radio2").css("background-color", "rgb(150, 133, 133)");
+});
+$('.radio3').hover(function(){
+	$(".radio3").css("background-color", "rgb(150, 133, 133)");
+});
+$('.radio1').mouseout(function(){
+	$(".radio1").css("background-color", " rgb(211, 203, 203)");
+});
+$('.radio2').mouseout(function(){
+	$(".radio2").css("background-color", " rgb(211, 203, 203)");
+});
+$('.radio3').mouseout(function(){
+	$(".radio3").css("background-color", " rgb(211, 203, 203)");
+});
+$('.radio1').click(function(){
+	$('.outer_box2').hide('drop');
+	$('.outer_box3').hide('drop');
+	$('.outer_box1').show('drop');
+});
+$('.radio2').click(function(){
+	$('.outer_box1').hide('drop');
+	$('.outer_box3').hide('drop');
+	$('.outer_box2').show('drop');
+});
+$('.radio3').click(function(){
+	$('.outer_box1').hide('drop');
+	$('.outer_box2').hide('drop');
+	$('.outer_box3').show('drop');
+});
+
 });
 
 </script>

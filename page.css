@@ -1,0 +1,207 @@
+.outer_box1
+{
+	width: 100%;
+	height: 655px;
+	background-color: black;
+	background-image: url(./ashu2.jpg);
+	background-repeat: no-repeat;
+	background-size: 1353px;
+	display: inline-block;
+}
+.outer_box2
+{
+	width: 100%;
+	height: 655px;
+	background-color: black;
+	background-image: url(./pic1.jpg);
+	background-repeat: no-repeat;
+	background-size: 1353px;
+	}
+.outer_box3
+{
+	width: 100%;
+	height: 655px;
+	background-color: black;
+	background-image: url(./pic8.jpg);
+	background-repeat: no-repeat;
+	background-size: 1353px;
+	
+}
+.top_box
+{
+	  width: 100%;
+  height: 75px;
+  background-color: aliceblue;
+  margin-top: 33px;
+  opacity: 0.6;
+  display: inline-block;
+}
+		.name
+		{
+			height: 100%;
+			width: 430px;
+			display: inline-block;
+			margin-left: -1336px;
+			border-right: solid 2px;
+			rgb(135, 135, 172)er-left: solid 2px;
+			border-color: antiquewhite;
+			font-family: Playball;
+			font-size: 65px;
+			border: 0px;
+			color: black;
+		}
+		.know_me
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			margin-left: 637px;
+			display: inline-block;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
+		.Compositions
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			display: inline-block;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
+		.Videos
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			display: inline-block;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
+		.Get_Involved
+		{
+			height: 100%;
+			width: 175px;
+			background-color: transparent;
+			display: inline;
+			float: left;
+			cursor: pointer;
+			font-family: Oswald;
+			font-size: 26px;
+			border: 0px;
+			color: black;
+		}
+.right_arrow
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 200px;
+	margin-left: 1220px;
+	background-image: url("./arrow_right.png");
+	background-repeat: no-repeat;
+	background-size: 100px;
+	cursor: pointer;
+}
+.left_arrow
+{
+	width: 100px;
+	height: 100px;
+	margin-top: 200px;
+	margin-left: 30px;
+	background-image: url("./arrow_left.png");
+	background-repeat: no-repeat;
+	background-size: 100px;
+	cursor: pointer;
+}
+.left_arrow_1
+{
+	width: 100px;
+	height: 100px;
+	margin-left: 1219px;
+	margin-top: 200px;	
+	background-image: url("./arrow_right.png");
+	background-repeat: no-repeat;
+	background-size: 100px;
+	cursor: pointer;
+}
+.right_arrow_1
+{
+	width: 100px;
+	height: 100px;
+	margin-top: -101px;
+	margin-left: 20px;
+	background-image: url("./arrow_left.png");
+	background-repeat: no-repeat;
+	background-size: 100px;
+	cursor: pointer;
+}
+.quote
+{
+	width: 842px;
+	height: 400px;
+	background-color: transparent;
+	margin-left: 241px;
+	font-family: playball;
+	font-size: 70px;
+	cursor: pointer;
+}
+.start
+{
+	background-color: black;
+	opacity: 0.8;
+	height: 700px;
+}
+
+.hide
+{
+	display: none;
+}
+.radio1
+{
+	width: 30px;
+  height: 30px;
+  margin-left: 1280px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -300px;
+  cursor: pointer;
+background-color: rgb(211, 203, 203);
+border-radius: 23px;
+}
+.radio2
+{
+	width: 30px;
+  height: 30px;
+  margin-left: 1280px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -250px;
+  cursor: pointer;
+  background-color: rgb(211, 203, 203);
+  border-radius: 23px
+}
+
+.radio3
+{
+	width: 30px;
+  height: 30px;
+  margin-left: 1280px;
+  display: inline-block;
+  position: fixed;
+  margin-top: -200px;
+  cursor: pointer;
+  background-color: rgb(211, 203, 203);
+  border-radius: 23px;
+}

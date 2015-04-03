@@ -55,6 +55,10 @@
 	<script type="text/javascript">
 $('.all_videos').hide();
 
+$('.name').click(function(){
+	window.location.assign("/work/ashu/ashutosh/page.php");
+});
+
 $(".know_me").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_1.php");
 });
@@ -105,6 +109,75 @@ $('.div1').click(function(){
 	$('.template1').hide();
 	$('.all_videos').fadeIn();
 	$( '.all_videos' ).append( '<iframe width="640" height="360" src="https://www.youtube.com/embed/MwpMEbgC7DA" frameborder="0" allowfullscreen></iframe>' );
-})
+});
+$('.div2').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/HjXKDM5wqx4" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div3').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/ij_0p_6qTss" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div7').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/eVTXPUF4Oz4" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div8').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/DpOp6Q4AUlA" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div9').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$('this').hide();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/Iyy3YOpxL2k" frameborder="0" allowfullscreen></iframe>' );
+
+});
+$('.div13').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/gOU_zWdhAoE" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div14').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/ziTHTlmPdhQ" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div15').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/QV79ndfRFgA" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div19').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/hHJytDUxnq4" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div20').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/PIh2xe4jnpk" frameborder="0" allowfullscreen></iframe>' );
+});
+$('.div21').click(function(){
+	$('.template2').hide();
+	$('.template1').hide();
+	$('.all_videos').fadeIn();
+	$( '.all_videos' ).append('<iframe width="640" height="360" src="https://www.youtube.com/embed/cbixLt0WBQs" frameborder="0" allowfullscreen></iframe>' );
+});
+
 </script>
 </body>

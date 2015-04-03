@@ -11,57 +11,53 @@
 .box
 {
 	width: 200px;
-	height: 200px;
-	background-color: red;
-	
+	height: 200px;	
 }
 .div1
 {
 	height: 350px;
 	width: 600px;
-	background-color: blue;
 	margin-left: 20px;
 	display: inline-block;
 	margin-top: 20px;
+	cursor: pointer;
 }
 .div2
 {
 	height: 350px;
 	width: 600px;
-	background-color: blue;
 	margin-left: 113px;
 	display: inline-block;
 	margin-top: 20px;
-	opacity: 0.7;
+	cursor: pointer;
 }
 .box2
 {
 	height: 100px;
 	width: 373px;
-	background-color: #FF0;
 	margin-left: 210px;
 	margin-top: -151px;
-	opacity: 0.7;
-
 }
 .box3
 {
 	height: 172px;
 	width: 360px;
-	background-color: #FF0;
 	margin-top: 19px;
 	margin-left: 214px;
 	display: inline-block;
 	opacity: 0.7;
+	background-color: yellow;
 }
-.fixed
+.video
 	{
-		height: 100px;
-		width: 450px;
-		margin-left: 852px;
-		font-size: 52px;
-		padding-left: 25px;
-		padding-top: 15px;
-		color: white;
-		font-family: Courgette;
+		height: 360px;
+		width: 640px;
+		margin-top: -626px;
+		margin-left: 388px;
+		position: fixed;
+	}
+	.box
+	{
+		background-image: url('./ashu1.jpg');
+		background-size: cover;
 	}

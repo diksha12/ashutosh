@@ -1,47 +1,29 @@
 <!DOCTYPE html>
 <html>
-<title>Know Me!!</title>
 <head>
-<link rel="stylesheet" type="text/css" href="reset.css">
-<link rel="stylesheet" type="text/css" href="other.css">
-<link href='http://fonts.googleapis.com/css?family=Courgette|Playball' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="customization.css">
-<link rel="stylesheet" type="text/css" href="page_1.css">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<style type="text/css">
-.box1
-{
-	width: 100px;
-	height: 100px;
-	background-color: red;
-	display: inline-block;
-}
-.box2
-{
-	width: 100px;
-	height: 100px;
-	background-color: black;
-	display: inline-block;
-}
-.box3
-{
-	width: 100px;
-	height: 100px;
-	background-color: green;
-	display: inline-block;
-}
-</style>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(window).load(function() {          
+  var i =0;
+  var images = ['pic1.jpg','pic2.jpg','pic3.jpg'];
+  var image = $('#slideit');
+                //Initial Background image setup
+  image.css('background-image', 'url(image1.png)');
+                //Change image at regular intervals
+  setInterval(function(){  
+   image.fadeOut(1000, function () {
+   image.css('background-image', 'url(' + images [i++] +')');
+   image.fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+</script>
 </head>
 <body>
-	<div class="box1"></div>
-	<div class="box2"></div>
-	<div class="box3"></div>
-	<button class="click">click me</button>
-
+      <div id="slideit" style="width:700px;height:391px;"> 
+   </div>
 </body>
-<script type="text/javascript">
-$('.click').click(function(){
-	$( ".box1" ).slide("left" , 100 );
-})
-</script>
 </html>
+

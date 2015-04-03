@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="reset.css">
 <link rel="stylesheet" type="text/css" href="other.css">
 <link rel="stylesheet" type="text/css" href="page_4.css">
+<link rel="stylesheet" type="text/css" href="page4.css">
 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="customization.css">
 <link href='http://fonts.googleapis.com/css?family=Courgette|Playball' rel='stylesheet' type='text/css'>
@@ -14,10 +15,10 @@
 <div class="outer_box">
 	<div class="top_box">
 		<div class="name">Ashutosh Singh</div>
-		<button class= "know_me">Know Me!!</button>
-		<button class="Compositions">My Compositions</button>
-		<button class="Videos">Videos</button>
-		<button class="Get_Involved">Get Involved</button>
+    		<button class= "know_me">Know<br>Me!!</button>
+    		<button class="Compositions">My<br>Compositions!!</button>
+    		<button class="Videos">All<br>Videos!!</button>
+    		<button class="Get_Involved">Get<br>Involved!!</button>
 	</div>
 	<div class="quote">
 		<div class="half1">I See, you are interested</div>
@@ -40,7 +41,7 @@
 			<input type="submit" value="Done" class="submit">
 		</form>
 	</div>
-	<div class="pic1 pic"></div>
+	<div class="pic1 pic" id="pic1"></div>
 	<div class="pic2 pic"></div>
 	<div class="pic3 pic"></div>
 	<div class="pic4 pic"></div>
@@ -53,7 +54,9 @@
 
 </div>
 <script type="text/javascript">
-
+$(".name").click(function(){
+	window.location.assign("/work/ashu/ashutosh/page.php");
+});
 $(".know_me").click(function(){
 	window.location.assign("/work/ashu/ashutosh/page_1.php");
 });
@@ -99,6 +102,157 @@ $(".Get_Involved").mouseout(function(){
   $(".Get_Involved").css("color", "black");
 });
 
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic8.jpg','pic1.jpg','pic3.jpg'];
+
+  setInterval(function(){  
+   $('#pic1').fadeOut(1000, function () 
+   {
+   $('#pic1').css('background-image', 'url(' + images [i++] +')');
+   $('#pic1').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic7.jpg','pic6.jpg','pic2.jpg'];
+
+  setInterval(function(){  
+   $('.pic2').fadeOut(1000, function () 
+   {
+   $('.pic2').css('background-image', 'url(' + images [i++] +')');
+   $('.pic2').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic2.jpg','pic4.jpg','pic5.jpg'];
+
+  setInterval(function(){  
+   $('.pic3').fadeOut(1000, function () 
+   {
+   $('.pic3').css('background-image', 'url(' + images [i++] +')');
+   $('.pic3').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic1.jpg','pic4.jpg','pic2.jpg'];
+
+  setInterval(function(){  
+   $('.pic4').fadeOut(1000, function () 
+   {
+   $('.pic4').css('background-image', 'url(' + images [i++] +')');
+   $('.pic4').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic5.jpg','pic6.jpg','pic1.jpg'];
+
+  setInterval(function(){  
+   $('.pic5').fadeOut(1000, function () 
+   {
+   $('.pic5').css('background-image', 'url(' + images [i++] +')');
+   $('.pic5').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic6.jpg','pic1.jpg','pic5.jpg'];
+
+  setInterval(function(){  
+   $('.pic6').fadeOut(1000, function () 
+   {
+   $('.pic6').css('background-image', 'url(' + images [i++] +')');
+   $('.pic6').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic3.jpg','pic4.jpg','pic1.jpg'];
+
+  setInterval(function(){  
+   $('.pic7').fadeOut(1000, function () 
+   {
+   $('.pic7').css('background-image', 'url(' + images [i++] +')');
+   $('.pic7').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic2.jpg','pic3.jpg','pic5.jpg'];
+
+  setInterval(function(){  
+   $('.pic8').fadeOut(1000, function () 
+   {
+   $('.pic8').css('background-image', 'url(' + images [i++] +')');
+   $('.pic8').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic3.jpg','pic7.jpg','pic1.jpg'];
+
+  setInterval(function(){  
+   $('.pic9').fadeOut(1000, function () 
+   {
+   $('.pic9').css('background-image', 'url(' + images [i++] +')');
+   $('.pic9').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+
+$(window).load(function() {          
+  var i =0;
+  var images = ['pic2.jpg','pic3.jpg','pic4.jpg'];
+
+  setInterval(function(){  
+   $('.pic10').fadeOut(1000, function () 
+   {
+   $('.pic10').css('background-image', 'url(' + images [i++] +')');
+   $('.pic10').fadeIn(1000);
+   });
+   if(i == images.length)
+    i = 0;
+  }, 5000);           
+ });
+  
 </script>
 
 	</body>

@@ -13,7 +13,7 @@
 <body>
 
 
-
+<div class="box">
 <div class="next">
     <div class="outer_box ">
     	 <div class="top_box">
@@ -38,11 +38,12 @@
     </div>
   </div>
 </div>
+</div>
 
 <script type="text/javascript">
 
 $('.name').click(function(){
-  window.location.assign("/work/ashu/ashutosh/profile.php");
+  window.location.assign("/work/ashu/ashutosh/page.php");
 });
 $('#fb').mouseover(  
    function(){  
@@ -89,7 +90,8 @@ $('#ms').mouseout(
    });  
 
 $(".know_me").click(function(){
-	window.location.assign("/work/ashu/ashutosh/page_1.php");
+  $('.box').hide();
+	window.location.assign("/work/ashu/ashutosh/page_1.php").fadeIn();
 });
 $(".know_me").mouseover(function(){
 	$(".know_me").css("background-color", "rgb(186, 179, 179)");
